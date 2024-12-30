@@ -54,7 +54,20 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - Markup elements
   - Heading tags
   - Paragraph tag
-  - Line Break tag (Empty element)
-  - Line tag (self clos tag) is a empty element
+  - Line Break tag: `<br>` (Empty element)
+  - Line tag: `<hr>` (self clos tag) is a empty element
   - Comment Tag `<!-- -->`
-  - &nbsp mark for space
+  - `&nbsp` mark for space
+
+- <span style="color: Red;">Lists</span>
+
+  - Unordered lists `<ul>`
+  - Ordered lists `<ol>`
+  - List items `<li>`
+
+- <span style="color: Red;">Tables</span>
+
+  - Table tag `<table>`
+  - Row tag `<tr>`
+  - Data tag `<td>`
+  - Column tag `<th>`
