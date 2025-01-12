@@ -71,3 +71,24 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - Row tag `<tr>`
   - Data tag `<td>`
   - Column tag `<th>`
+
+- <span style="color: Red;">Links</span>
+
+  - Link to outside tag `<a href="www.google.com">`<span style="color: Red;">Google</span>`</a>`
+  - Define Attributes `href`
+  - Link to inside tag `<a href="#Birds">` and `<a name=Birds>`
+
+- <span style="color: Red;">Images</span>
+
+  - Image tag `<img>`
+  - Source attribute
+  - Size Attributes
+  - Use optimize size for your images
+  - Alt Attributes
+
+- <span style="color: Red;">Nested Elements</span>
+
+  - `<html>` is root elements
+  - Child elements
+  - Parent elements
+  - Mismatch Elements
