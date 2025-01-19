@@ -92,3 +92,27 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - Child elements
   - Parent elements
   - Mismatch Elements
+
+- <span style="color: Red;">HTML Forms</span>
+
+  - To collect data to do something
+  - Implement a textbox element/ control (`type="text"`)
+  - Attributes are belong to CSS and JavaScript courses
+  - Change your textbox size (`size="50"`)
+  - Implement a label element
+  - `placeholder` attribute show a guid and default value inside your textbox or textarea elements
+  - Add a Multi line textbox (textarea)
+  - We can use just simple text as label
+  - Implement a submit button (`type="submit"`)
+  - Implement a Radio button (`type="radio"`)
+  - Radio's name should be the same
+  - Implement a CheckBox button (`type="checkbox"`)
+  - Use `checked="checked"` for checked a box by default
+  - Implement a Numbers field (`type="number"`)
+  - For restrict user from entering random number we need JavaScript
+  - Set `min=""` and `max=""` for your Numbers input
+  - Implement a DropDownList using `select` tag
+  - For Items we use `<option>` tag
+  - Implement a date element `type="date"`
+  - Use `<fieldset` tag to give a nice style to your page
+  - `<legend>` tag add a nice title to your fieldset
