@@ -116,3 +116,62 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - Implement a date element `type="date"`
   - Use `<fieldset` tag to give a nice style to your page
   - `<legend>` tag add a nice title to your fieldset
+
+- <span style="color: Red;">HTML Attributes</span>
+
+  - Differences between tags and elements
+  - A specific attribute gives extra information about a particular element
+  - Place attributes only in opening tag
+  - Some attributes can be placed in every HTML elements tag, Like `class=""` attribute
+  - On the other hand some attributes comes with a specific element, like `for=""` attribute
+
+- <span style="color: Red;">Meta Tags</span>
+  - Is always put inside `<head>` elements
+  - These elements give more information to search engines about your page
+  - Meta tags is self-content tags and don't need close tag
+  - Description Meta tag uses only `155` character
+  - Keywords used for demonstrate the content of page to some search engin (Except Google)
+  - Meta tags also give extra information about Author or language
+- <span style="color: Red;">Special Characters</span>
+
+  - There is scape characters in HTML5
+  - ![](Images/2.png)
+
+- <span style="color: Red;">Bold and Italic style</span>
+
+  - Use `<b>` tag to make a text bold
+  - Use `<Strong>` tag to make a text bold
+  - `<strong>` tag has special uses (ex: text speech programs) but ` <b>` tag is only for styling
+  - Special features can be add to `<strong>` tag in `HTML6`
+  - Use `<i>` tag to make a text italic
+  - Use `<em>` tag to make a text bold
+  - `<em>` tag has special uses (ex: text speech programs) but ` <i>` tag is only for styling
+
+- <span style="color: Red;">Iframe Element</span>
+
+  - Use this element to embed content of another page to your page (for adverts, navigation, or images)
+
+- <span style="color: Red;">Super & Sub Script</span>
+
+  - Its about topography and placing text and symbols at the top or bottom of other text
+
+- <span style="color: Red;">Title and Alternative</span>
+
+  - In HTML5 we can use `title` attribute in every elements to show information about them when mouse hover over them
+  - `alt` attribute show information about absence of an element
+
+- <span style="color: Red;">Audio Tag</span>
+
+  - To place an audio in your page ypu can use `<audio>` tag
+  - It support three different format file (`.mp3, .wav, and .ogg`)
+  - It's important that you should place a `control` attribute for your audio element but you can choose arbitrary name for it
+  - For placing different format of a file we can use `<source>` tag
+  - By `autoplay` attribute you can play your file automatically
+  - By `loop` attribute you can play your file in infinite loop
+  - By `draggable="true"` attribute you can drag your player everywhere
+
+- <span style="color: Red;">Video Tag</span>
+
+  - To place an audio in your page ypu can use `<video>` tag
+  - It support two different format file (`.mp4 and .ogg`)
+  - For placing different format of a file we can use `<source>` tag
