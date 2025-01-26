@@ -175,3 +175,39 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - To place an audio in your page ypu can use `<video>` tag
   - It support two different format file (`.mp4 and .ogg`)
   - For placing different format of a file we can use `<source>` tag
+
+- <span style="color: Red;">DOCTYPE</span>
+
+  - It's not a actual HTML tag
+  - It shows the version of HTML that we use in our document
+
+- <span style="color: Red;">Document Object Model (DOM)</span>
+
+  - It's a model that present HTML elements in our document
+  - When a web page is loaded, the browser creates a Document Object Model of the page
+  - The HTML DOM model is constructed as a tree of Objects
+  - ![](Images/3.png)
+  - Use w3 validator to check your HTML codes
+  - https://validator.w3.org/
+
+- <span style="color: Red;">HTML Semantic Elements</span>
+
+  - A semantic element clearly describes its meaning to both the browser and the developer
+  - A semantic Web allows data to be shared and reused across applications, enterprises, and communities
+  - ![](Images/4.png)
+  - ![](Images/5.png)
+
+- <span style="color: Red;">Additional HTML Tags And Relevant Information</span>
+
+  - Use `<pre>` tag for preformatted text
+  - Use `<blockquote cite="">` tag for A section that is quoted from another source
+  - Use `<code>` tag for code snippets
+  - Use `<dl>` tag for present a description list (`<dt>`, `<dd>`)
+
+- <span style="color: Red;">Exercise</span>
+  - Section1: ![](Images/ex1.png)
+  - Section2: ![](Images/ex2.png)
+  - Section3: ![](Images/ex3.png)
+
+<br>
+<br>
