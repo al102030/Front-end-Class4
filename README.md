@@ -203,6 +203,27 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - Use `<blockquote cite="">` tag for A section that is quoted from another source
   - Use `<code>` tag for code snippets
   - Use `<dl>` tag for present a description list (`<dt>`, `<dd>`)
+  - We use `<caption>` tag to place a title for our table
+  - The `<map>` element defines an image map
+  - The `<area>` tag specifies the clickable areas within that image map
+  - The `coords` attribute provides the coordinates for the shape defined by the `shape` attribute (such as rect, circle, or poly)
+  - The coords attribute defines the precise locations on the image where the clickable areas are active, making it possible to create interactive regions on the image map
+  - The `W3C`, or `World Wide Web Consortium`, is the main international standards organization for the World Wide Web, working to develop protocols and guidelines to ensure long-term growth for the Web
+  - Talk about `<u>` and `<strike>` tags
+  - Talk about `type="a"` for `<ol>` tag
+  - Talk about `type="circle"` for `<ol>` tag
+  - `Combobox` in HTML is actually the `Dropdown list`
+  - The `rowspan` attribute allows a cell to span multiple rows
+  - The `colspan` attribute allows a cell to span multiple columns
+  - The `<bgsound>` tag in HTML is used to embed background sound in a web page
+  -
+  - COMPACT
+  - frameset
+  - Frame
+  - Noresize
+  - Imagemap
+  - Marquee
+  - layer
 
 - <span style="color: Red;">Exercise</span>
   - Section1: ![](Images/ex1.png)
@@ -211,3 +232,49 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
 
 <br>
 <br>
+
+### <span style="color: #44cecc;">CSS</span>
+
+- <span style="color: Red;">What is the CSS?</span>
+
+  - <span style="color: #0099ff;">CSS</span> is `Cascading Style Sheet` for describing look and formatting documents written in a markup language
+  - Adds style to your HTML
+  - By CSS you can have control on your website look without changing your HTML
+  - Talk about another HTML tag: `<style>`
+  - select a tag in your HTML document ex:`h1 {  ...  }`
+  - Each one of these style is a CSS `property`
+  - Statement of changing in CSS : `Property : value`
+
+- <span style="color: Red;">Changing font color, type, and size</span>
+
+  - Use `color`, `font-size`, and `font-family` property to change respectively color, size, and font type of your text
+  - `px` stands for `pixel`
+  - Selecting by `p` type change all paragraphs in our page
+
+- <span style="color: Red;">Multi Selecting Tags</span>
+
+  - `h1, h2 {   ....  }`
+  - By writing another selector you can change one of your multiple selected tags
+
+- <span style="color: Red;">Border Property</span>
+
+  - `border-bottom`, `border-top` ...
+  - Imply to the combine values
+
+- <span style="color: Red;">CSS Inheritance and Overriding</span>
+
+  - What you get with hierarchy is inheritance
+  - ![](Images/7.png)
+  -
+  - Child inherit their properties from their parents
+  - To change something individually you should change that in the child tag using overriding rule
+  - By define a property for a child individually an override happens and it's `overriding`
+
+- <span style="color: Red;">Using Classes</span>
+
+  - Create two paragraph with different classes (`blue`, `red`) and define classes in style tag
+  - Definition class statement : `class="class_name"`
+  - It don't need it to put class attribute closing tag and remember attribute always comes in opening tag
+  - By removing tag name before dot notation it can be apply on all tags which have a specific class attribute
+  - You can use multiple class name in your class attribute
+  - Apply it by using `text-decoration` property
