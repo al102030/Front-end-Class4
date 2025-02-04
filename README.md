@@ -216,14 +216,13 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - The `rowspan` attribute allows a cell to span multiple rows
   - The `colspan` attribute allows a cell to span multiple columns
   - The `<bgsound>` tag in HTML is used to embed background sound in a web page
-  -
-  - COMPACT
-  - frameset
-  - Frame
-  - Noresize
-  - Imagemap
-  - Marquee
-  - layer
+  - The `COMPACT` attribute in HTML was used with the `<dl>`, `<menu>`, and `<ul>` tags to reduce the vertical spacing between list items. However, this attribute is now obsolete and no longer supported in modern HTML standards
+  - The `<frameset>` tag in HTML was used to divide the browser window into multiple sections, or frames, each of which could display a different HTML document
+  - This tag was typically used alongside `<frame>` tags to define the content of each frame
+  - However, `<frameset>` and `<frame>` are now considered `obsolete` in HTML5, and it is recommended to use modern layout techniques like CSS `Flexbox` or CSS `Grid` instead
+  - The `noresize` attribute in HTML is used with the `<frame>` tag to prevent a frame from being resizable by the user
+  - what about Marquee The `<marquee>` tag in HTML is used to create a scrolling text or image effect. It allows text or images to move horizontally or vertically across the screen. However, the `<marquee>` tag is not part of the HTML5 standard and is considered obsolete
+  - In HTML, `layers` are typically achieved using CSS for positioning and stacking elements. There isn't a specific `layer` tag in HTML, but you can use CSS properties like position and z-index to create and manage layers
 
 - <span style="color: Red;">Exercise</span>
   - Section1: ![](Images/ex1.png)
@@ -278,3 +277,73 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - By removing tag name before dot notation it can be apply on all tags which have a specific class attribute
   - You can use multiple class name in your class attribute
   - Apply it by using `text-decoration` property
+
+- <span style="color: Red;">Font Family</span>
+
+  - You can define which font apply on your text
+  - If none of those fonts don't exist in the client computer system default font apply on your text
+  - It's better to put font family property in your `body` tag
+
+- <span style="color: Red;">Font Weight Property</span>
+
+  - Use `normal`, `bold`, `bolder`, and `lighter` for check this property
+  - Some font families belongs to specific computers like `Mac`
+
+- <span style="color: Red;">External Style Sheet</span>
+
+  - There is three way to apply stylesheet on HTML
+  - `internal style sheet`, `external style sheet`, and `inline style sheet`
+  - Internal stylesheet is good if you have only one page
+  - It's more realistic to use external stylesheet
+  - In a real world developing a website it is possible that you use all three way for styling
+  - Create a separate file for your stylesheet `.css`
+  - Transfer your code to your new file
+  - Create a link tag in your head element
+  - Define true address for your link
+
+- <span style="color: Red;">Text Decoration</span>
+
+  - Talk about `text-decoration` property and `line-through`, `underline`, and `overline` values (`none`)
+  - Talk about italic style by `font-style` and creating three different paragraph and classes
+  - To make a word italic it's better to use HTML tags
+  - Differences between `italic` and `oblique` are in fonts, browsers and combination
+
+- <span style="color: Red;">Web Colors</span>
+
+  - There is three primary way to add colors
+  - `use 16 primary colors`, `use RGB values`, and `use hex-codes`
+  -
+  - Primary colors
+  - ![](Images/8.png)
+  -
+  - RGB colors
+  - ![](Images/9.png)
+  - Check this colors in windows paint
+  - Use `rgb(number for red, number for green, number for blue);` property
+  - It's better to use hex-code color code. It's more professional
+  - Use for ex: `#ff2456` format for apply color on your tags numbers in hex-code cover around 16 million different color `00..ff`
+
+- <span style="color: Red;">Inline Style Sheet</span>
+
+  - Use `style` property inside a tag
+  - Separate properties using `;`
+  - Only use this way when you have a rock solid tag that never change
+
+- <span style="color: Red;">More Font Size</span>
+
+  - Four way to apply size to texts `font-size:---`
+  - `px`, `%`, `em`, and `keywords`
+  - Define font size in `body` and use different `font-size` for `h1`, `h2`, and `p`
+  - `px` define size based of number of pixels
+  - `%` change font size based on inheritance and parent tag font size
+  - This is a `relative unit` of measures
+  - Calculate the new measure by calculator
+  - `em` do the same thing that percentage is doing
+  - By change the value in body you can change other tags without editing
+  - Keywords have size based on pixels
+
+- <span style="color: Red;">Line Hight Property</span>
+
+  - By using this property you can make your text more readable
+  - `line-hight:...;`
+  - Size rules are useable here
