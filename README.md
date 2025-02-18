@@ -446,3 +446,39 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - Always <span style="color: Orange;">higher element's margin</span> apply between two block element
   - We can convert a block to Inline and vice versa by using `Display` property
   - Talk about two block and Inline elements' margin and centralize them
+
+- <span style="color: Red;">Floating an Element</span>
+
+  - By using floating element we can define a position for an element (define `width` and set float to `left`)
+  - By define float property we actually interrupt `natural flow` and put some space for next item in the list
+  - Use percentage (`50%`) to divide screen into two pieces
+  - Nested block elements stretch through all their parent free space
+
+- <span style="color: Red;">Absolute Positioning for an Element</span>
+
+  - By using `position` property we can define an `absolute` and optional position for an element (Also `top`, `left`, `bottom`, and `right` properties are needed)
+  - By using position property our element exits from flow completely and not respect to borders (decrease the top and left size)
+  - Float property respects the boundaries check it by removing position and add float property
+
+- <span style="color: Red;">Fixed Positioning for an Element</span>
+
+  - By switch the value of position property to `fixed` we can put an element in concrete position (use `TLBR`)
+  - Try to not using it, because it bothers you web page users
+  - Sometime it's used for advertisement
+  - We talk about relative positioning in the future
+
+- <span style="color: Red;">Overflow Property</span>
+
+  - By using `overflow` property we can define a showing option for content that is not fit to the hight of element
+  - Use different options like: scroll, hidden, and the like
+
+- <span style="color: Red;">The Cursor Property</span>
+
+  - You can change the mouse cursor icon over elements by define `cursor` property
+  - Use different shape of cursers
+
+- <span style="color: Red;">Custom Cursor</span>
+
+  - By using `Url` option for cursor we can add our icon to cursor collection and use it
+  - Search in windows and use an `icon` to define it
+  - Use default option for safety mechanism

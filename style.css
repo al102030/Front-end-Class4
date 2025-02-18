@@ -1,0 +1,27 @@
+body {
+    background-color: #9c9f84;
+    margin: 0;
+}
+
+#main1 {
+    background-color: #e5d4d7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+#main2 {
+    background-color: #e5d4d7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#par {
+    color: red;
+}
+
+#square {
+    background: red;
+    width: 25px;
+    height: 25px;
+}
