@@ -482,3 +482,45 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - By using `Url` option for cursor we can add our icon to cursor collection and use it
   - Search in windows and use an `icon` to define it
   - Use default option for safety mechanism
+
+- <span style="color: Red;">Text ans Images</span>
+
+  - When you want to alien an image within a text you can do it by adding the `float` property to its class
+  - By default Image is in flow and by floating it all free space after it allocate to the next item (ex:text)
+  - Adding margin to the class creates enough free space between them
+  - Large margin for the bottom can create a nice style for text
+  - By moving image tag to outside of the paragraph tag they can by aligned
+
+- <span style="color: Red;">Relative Positioning</span>
+
+  - All elements are in the flow and have static position
+  - Check `position: static;` for square and it doesn't move
+  - Position options are `static`, `relative`, and `absolute`
+  - For apply a relative option we should use two option of `TRBL`
+  - `Relative` positioning look to the first <span style="color: #1783f7;">static</span> element at the side (top last paragraph / left edge of last div)
+  - `Absolute` position look to the first <span style="color: #1783f7;">Non-static</span> element
+  - Change position of the square to absolute to show differences (bottom-right) and change it for another element
+  - Typically we don't use relative positioning for our main content panel
+  - We use relative when we want to keep an absolute element in our content
+
+- <span style="color: Red;">Vertical Menu</span>
+
+  - Start with a un ordered list and address tag for list items
+  - First, we should change `list-style` to `none` to remove bullet points
+  - Set padding and margin to `0`
+  - Talk about path to a specific and selecting that
+  - Change `text-decoration` property to `none` for anchor tag and also `font-family`, `background-color`, and `color` property
+  - `Anchor` tag is inline element
+  - By changing display to `block` and set width to `80px` and margin to `5px` and margin to `10px` our menu get shape
+  - We need another selector for special effects
+
+- <span style="color: Red;">Horizontal Menu</span>
+
+  - Put your unordered list inside a section(div)
+  - All the process is similar to vertical menu except setting the display to `inline` for `li`
+  - `text-decoration` is not inheritable
+
+- <span style="color: Red;">Beautiful Button</span>
+
+  - We don't put it in a separate div like horizontal nav abr
+  - Two number for padding is related to `top&bottom` and `left&right`
