@@ -524,3 +524,53 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
 
   - We don't put it in a separate div like horizontal nav abr
   - Two number for padding is related to `top&bottom` and `left&right`
+
+- <span style="color: Red;">Inline-block</span>
+
+  - By setting display property to `inline-block` the element behave like inline elements but recognize hight
+  - It's half and half display style
+  - By using this you can have more control over a element that is a part of another element
+
+- <span style="color: Red;">Web Forms</span>
+
+  - `Input` element is an `inline` element
+  - To design our form we can put its elements into a cell form structure
+  - We need to put our form elements in separate `divs` with class `row`
+  - Give an Id to our form to style it
+  - We need to set our form display property to `table`
+  - For each row in our display style we need another form of display called `table-row`
+  - Now we need to put each element in our table style display in distinct cell by setting its display property to `table-cell`
+  - The `table-column` doesn't need to define
+
+- <span style="color: Red;">Selectors</span>
+
+  - To select an element by its `type `use type selector ex: `h1{}`
+  - To select an element by `id` use `#` selector ex: `#para1{}`
+  - To select an element by its class use `.` selector ex: `.para{}`
+  - We can `combine` selectors with each other and separate them by `,` like `h1, p, #para1`
+  - `Descended` selector is a form of address to a specific element like `ul li a` (it doesn't use `,`)
+  - `Child` selector is a kind of descended selector which use `>` to access to an element
+  - Child selector point direct to an element and there is no extra element between two element (Only one level down can be a direct child)
+
+- <span style="color: Red;">Selector Strategies</span>
+
+  - By using Combine selectors we can decrease the line of codes
+  - The last rule in your CSS has highest priority (`precedence`)
+
+- <span style="color: Red;">Siblings selector</span>
+
+  - ![](Images/11.png)
+  -
+  - Use `+` sign to select an `adjacent` siblings element like `h2+p`
+  - By using `~` instead of `+` we can use general siblings selector
+  - This select all items after first item in selector
+  - By using wildcard selector `*` we can use every elements in our page (using this selector is not recommended)
+
+- <span style="color: Red;">Attribute selector</span>
+
+  - By placing `[]` after a specific selector we can select by choosing its attributes
+  - Example : `p[href] {}`
+  - To associate a value to a attribute selector put a `=` and that value after it in bracket
+  - By placing a carrot symbol `^` after attribute name you can select an attribute that start with a specific value
+  - Use `$` sign to match end of a value with an attribute
+  - Use `*` sign to match a specific value anywhere in an attribute with that it
