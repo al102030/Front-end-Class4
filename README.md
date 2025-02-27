@@ -574,3 +574,75 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - By placing a carrot symbol `^` after attribute name you can select an attribute that start with a specific value
   - Use `$` sign to match end of a value with an attribute
   - Use `*` sign to match a specific value anywhere in an attribute with that it
+
+- <span style="color: Red;">Nth Child Selector</span>
+
+  - `Hover` is a kind of pseudo selector
+  - We use `nth selector` for patterning selection (Like selecting even elements)
+  - Example: `p:nth-child(3 or even or 3n)`
+  - By adding a number to a patter like 3n we can define that where the selector should start
+
+- <span style="color: Red;">Not Selector</span>
+
+  - By using this selector you can define that a specific element doesn't affected by changes
+  - It's a pseudo selector and we should place a selector inside its parentheses
+  - If we remove that selector, all thing in the page is going to be affected
+
+- <span style="color: Red;">First Selector</span>
+
+  - It's a different kind of Pseudo classes
+  - We can choose a first letter of all paragraphs
+  - Example: `p::first-letter` of `p:first-line`
+
+- <span style="color: Red;">Opacity Property</span>
+
+  - The value rage for `opacity` property is `0.0 - 1.0`
+  - `1.0` is the default value
+  - By using `hover` pseudo class you can create a beautiful special effect
+
+- <span style="color: Red;">Linier Gradients</span>
+
+  - To use different colors in a specific part of our page in nice way we can use `liner-gradient()` CSS function
+  - Use `background` property to define a color if browser doesn't support gradient
+  - Default movement in `liner-gradient` is `top-down` order
+  - `to right` parameter change the default order
+  - check `to top left`
+  - Using degree (`30deg`) make it custom
+  - Also you can add more color to your gradient
+  - Add a percentage to a color gives the other color share based on it
+  - Giving a 50% to each color create a straight line between them
+
+- <span style="color: Red;">Combine Opacity and Gradients</span>
+
+  - By using `rgba` parameter in linier-gradient we can mix gradient and opacity
+  - `a` at end of property is `alpha`
+
+- <span style="color: Red;">Text Shadow</span>
+
+  - By using `text-shadow` property we can add a beautiful shadow to our text
+  - First and second option is vertical and horizontal shadow depth (They are usually the same) and the third option is the measure of blur of it
+  - We can and multiple shadow to our text by separating them with `,`
+  - By using `rgba` we can control our text shadow opacity
+
+- <span style="color: Red;">Box Shadow</span>
+
+  - By using `box-shadow` property we can create nice shadow for our elements
+  - Option for box-shadow is completely the same with text-shadow and it has one more option (`spread radius`)
+  - Boxes has another option called inner-shadow (`inset`)
+
+## <span style="color: #ff8800; font-size: 18px; ">CSS Grid</span>
+
+- First of all create a dive as your CSS Grid container
+- Fist step is setting your div display property to `grid`
+- By using `grid-template-columns` we can create our grid and columns (`auto` option is a place holder for each one)
+- `auto` option stretch your columns based on the size of the screen
+- Grid gutters defined by `grid-gap` (It is a deprecated property)
+- By using `grid-template-rows` we can create our grid rows and we can give specific size to all of them
+-
+- ![](Images/12.png)
+-
+- Create your first section in you container by creating a new `div`
+- Now you need to specify `grid-column` and `grid-row`
+- You don't need to put the stop line for first section
+- To specify a `stop line` we can put a `slash(/)` after start line and than put stop line number (`Section10`)
+- For a new row you need to define it in container-grid section
