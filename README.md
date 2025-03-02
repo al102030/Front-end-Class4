@@ -646,3 +646,45 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
 - You don't need to put the stop line for first section
 - To specify a `stop line` we can put a `slash(/)` after start line and than put stop line number (`Section10`)
 - For a new row you need to define it in container-grid section
+
+  - For a real dynamic website which has unpredictable rows of grid we can use `grid-auto-rows`
+  - For a real dynamic website which has unpredictable columns of grid we can use `grid-auto-columns`
+  - Define new section based on new auto rows property
+  - By using `repeat` function for `grid-template-column` or `grid-template-row` as value, we can change the process of creating columns or rows automatic
+  - First parameter is the minimum number of columns
+  - The second parameter (`1fr`) is for dividing section equally
+  - By adding two new column in new column definition show the new style
+  - To nest a grid inside another grid we need to define new container for new grid and put html elements inside a section
+  - To keep all sections in the same size we don't need specify row and column
+  - Padding for grid sections is different from gutters
+  - Test adding an image to grid section (define width and hight)
+
+- <span style="color: Red;">CSS FlexBox</span>
+
+  - `FlexBox` allows you to create a layout in <span style="color: #0099ff;">one dimension</span>
+  - `Grid` allows you to create a layout in <span style="color: #0099ff;">Two dimension</span>
+  - Using them separately and mixed help you to make flexible layout
+  - By changing `flex-direction` property you can change your FlexBox direction (default value for this property is `row`)
+  - `Order` property set to `0` in default mode
+
+  - By setting this property you can choose your desire order for your boxes
+  - You can set mines value for this property (like -1)
+  - - If you want to an item come first ever set its order property to a very big negative value like `-1000`
+  - `flex-grow` property define the size of the boxes and you need to define it for all of them
+  - By setting `flex-grow` to 1 for all boxes you divide the space between them evenly
+  - By using `Justify-content` property you can change the location of your boxes (check `flex-end`, `space-between`, `center`, `space-evenly`)
+  - By using `Justify-content` and `flex-direction` properties you can choose optional positions for your FlexBox
+  - `Justify-content` property doesn't work for a vertical Flexbox when set to `flex-end`
+  - `align-items` can change the position in another way and you can use them for a specific box (`align-self`)
+  - By using `flex-wrap` you can fix your boxes actual size
+  - Set `Justify-content` to `space-around` mixed with `wrap`
+  - `flex-shrink` property work like flex grow in a more flexible way
+  - It takes the space from one box and share it between other boxes
+  - Set all boxes width to 100% and check `flex-shrink`
+  - `flex-basis` is much better option for auto sizing (to size an image inside a box)
+  - By setting `flex-basis` when `flex-direction` set to <span style="color: lightgreen;">row</span>, it works against the `width`
+  - By setting `flex-basis` when `flex-direction` set to <span style="color: lightgreen;">column</span>, it works against the `hight`
+
+- <span style="color: Red;">Creating layout using CSS FlexBox</span>
+
+  - Use FlexBox properties to create a custom layout fully
