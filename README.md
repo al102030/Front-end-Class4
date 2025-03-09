@@ -600,7 +600,7 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - `1.0` is the default value
   - By using `hover` pseudo class you can create a beautiful special effect
 
-- <span style="color: Red;">Linier Gradients</span>
+- <span style="color: Red;">Linear Gradients</span>
 
   - To use different colors in a specific part of our page in nice way we can use `liner-gradient()` CSS function
   - Use `background` property to define a color if browser doesn't support gradient
@@ -688,3 +688,44 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
 - <span style="color: Red;">Creating layout using CSS FlexBox</span>
 
   - Use FlexBox properties to create a custom layout fully
+
+### <span style="color: #00cc00;">Bootstrap</span>
+
+- <span style="color: Red;">What is the Bootstrap?</span>
+
+  - <span style="color: #cc00cc">Bootstrap</span> is a free and open source `framework` that allows you to build websites
+  - It's a set of tools that allows you to do something complex easily like Jquery
+  - First responsive mobile website was built by Bootstrap
+  - You need to know `HTML`, `CSS`, and `Javascript`
+  - It's a `CSS&JavaScript` framework and it doesn't need to be tested
+  - It's includes lots of pre-made components like `navbars`, `modals`, `tabs`, `tooltips`, `buttons`, `accordions` & more...
+  - It's provide `12-column CSS Grid` system for your website
+  - It's easy to customize and give a good browser compatibility
+  - We work on Bootstrap version 5 (No Jquery, RTL support)
+  - ![](images/13.png)
+
+- <span style="color: Red;">Bootstrap Implementation</span>
+
+  - Visit [Bootstrap website](https://www.getbootstrap.com)
+  - Download the bootstrap
+  - Also we can use `CDN` (Content Delivery Network) to use bootstrap easily
+  - Implement CDN codes in their right places and add `assets` folder to place your images there
+
+- <span style="color: Red;">Bootstrap Typography</span>
+
+  - Bootstrap reboots all the default styles like headings, font, font weight, margin, padding, and etc.
+  - Check bootstrap headings
+  - Talk about `Emmet` toolkit
+  - `ul>li*5` Creates an unordered list with 5 list items.
+  - `a[href="https://example.com"]` Creates an anchor tag with a specific href attribute.
+  - Bootstrap look at the available space for sizing
+  - By using `h` classes you can shape your text like heading tags
+  - You can use `display` classes for sizing your fonts
+  - There is a small differences between display and h class
+  - `Lead` class give a different and better style to our paragraph tags
+  - It basically is s a paragraph tag that just slightly bigger
+  - By using `text-start`, `text-center`, and `text-end`, you can align your text
+  - A `text-decoration-underline` decorate your text in underline form
+  - A `text-decoration-line-through` decorate your text in line-through form
+  - A `fw-bold` decorate your text in bold form
+  - compare texts with small tag
