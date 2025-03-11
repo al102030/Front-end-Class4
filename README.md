@@ -729,3 +729,27 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - A `text-decoration-line-through` decorate your text in line-through form
   - A `fw-bold` decorate your text in bold form
   - compare texts with small tag
+
+- <span style="color: Red;">Bootstrap Colors</span>
+
+  - Bootstrap provide 8 primary colors which you can find in its documentation
+  - By using classes in the form of `text-"color_name"` you can apply a primary color on your text
+  - By using classes in the form of `bg-"color_name"` you can apply a primary color on your text background
+  - To customize colors, you'll need to work with Bootstrap's `Sass` variables
+
+- <span style="color: Red;">Buttons</span>
+
+  - By using base `btn` class we can create a button in bootstrap and then style it
+  - By giving a class of `btn` to an anchor tag we can transform it to a button
+  - By using words like `lg`, and `sm` you can change your button size
+  - We can give a custom size to our button by giving it a style in our custom CSS
+  - `btn-outline-"color name"` can create nice bootstrap buttons
+  - By using `btn-group` class we can style our buttons in a nice group
+  - Put your button group inside a `div`
+
+- <span style="color: Red;">Utility Classes (Margin and Padding)</span>
+
+  - By using classes that starts with `m-` or `p-` follows by a range of numbers `1-5` we can apply margin and padding to elements. like `m-3`
+  - We can apply margin in one direction like `top-down` by add `y` to its class like `my-1`
+  - We can apply padding in one direction like `left-right` by add `x` to its class like `px-1`
+  - By add `t`, `b`, `s`, and `e` (In order top, bottom, left, and right) to `m` or `p` classes we can apply margin or padding in on side
