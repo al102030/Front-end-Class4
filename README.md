@@ -753,3 +753,96 @@ Welcome to our comprehensive course on `CSS3`, `HTML5`, and the basics of `Boots
   - We can apply margin in one direction like `top-down` by add `y` to its class like `my-1`
   - We can apply padding in one direction like `left-right` by add `x` to its class like `px-1`
   - By add `t`, `b`, `s`, and `e` (In order top, bottom, left, and right) to `m` or `p` classes we can apply margin or padding in on side
+
+- <span style="color: Red;">Utility Classes (Border)</span>
+
+  - Class `border` can apply a gray border to our elements
+  - By add `top`,`bottom`,`start`, and `end` we can have border in a one side
+  - Also we can colorize our border and make it thicker or thinner in the range of `1-5`
+  - `rounded` class can curve your elements border
+  - `rounded-pill` class can curve your elements border more and like cycle
+
+- <span style="color: Red;">Utility Classes (Shadow)</span>
+
+  - `shadow` class can give a nice stylish shadow to your element
+  - `sm` and `lg` can change your shadow size
+
+- <span style="color: Red;">Utility Classes (Font Wight and Style)</span>
+
+  - By `fw` and `fst` classes we can give optional wight and style to our texts font
+  - Look at the utility classes in Bootstrap site
+
+- <span style="color: Red;">Containers</span>
+
+  - Talk about Breakpoints and different containers
+  - ![](images/14.png)
+  - Different containers show different behavior in specific breakpoints
+  - A `normal` container change content arrangement in breakpoints
+  - A `fluid` container keep content arrangement fixed (100% of width)
+
+- <span style="color: Red;">The Grid Layout</span>
+
+  - The Grid layout provide structure
+  - Bootstrap uses grid structure to form your website structure
+  - This structure is very responsive and easy to maintain
+  - Bootstrap system allows you to have up to 12 columns
+  - First create your `container` class. You must wrap all of your grids in this container (It's pre-defined class)
+  - You can use `two types` of classes that you can use here(`container`, `container-fluid`)
+  - Add your Bootstrap `row` to your container class (It's pre-defined class)
+  - Add your Bootstrap `col` to your container class (It's pre-defined class)
+  - Using `col` without any other option divide space between columns
+  - Bootstrap has four major classes that you can call
+    - `xs` for Phones
+    - `sm` for Tablets
+    - `md` for Desktops
+    - `lg` for larger Desktops
+  - Typically we use `md` class in our designs
+  - All these sizes have another numeral size between `1-12`
+  - Create 6 columns for testing
+  - You can add your own stylesheet to bootstrap classes
+  - Put your stylesheet link after Bootstrap link to give it higher priority
+  - By adding a `new div` we can apply our own customized classes on columns
+  - Also we can use `id` to do that
+  - Define separate classes for each column and resize your web browser
+  - We can justify content in row class div (`Justify-content-{start, end, center, between, ...}`)
+
+- <span style="color: Red;">A Sample Bootstrap Page</span>
+
+  - Create all initial files and codes in a separate folder
+  - Divide your body in different sections and comment it
+  - First we create a introduction section
+  - Do everything based On codes in Final_project files
+  - Create two section, one for text and one for image
+  - By placing image in second column and give a `img-fluid` class to it our image set in its right place
+  - Look at the justification of text in column one
+  - `align-items-center` class make centralized text vertically
+  - Talk about `Navbar` in Bootstrap website
+  - For creating a nav bar we should use navbar tag
+  - Navbar container is `container-xl` and place your website brand inside navbar tag
+  - Add a toggler button using Bootstrap
+  - `aria` attributes are for benefits of screen readers
+  - Copy codes from code snippets and talk about all classes and attributes
+  - Change color in row by using bootstrap classes
+  - by `fixed-bottom` class we can place navbar at bottom of page
+  - Talk about cards and check it inside the BT website
+  - For using cards we need a div with `card` class and inside it we should place several tags with these classes:
+    - `card-body` (div)
+    - `card-title` (h4)
+    - `card-subtitle` (p)
+    - `card-text` (p)
+    - `card-header` (div)
+  - By using `g-{1-5}` class you can create gap between cards
+  - To create a accordion we should create a div with class `accrodion`
+  - For each one of accordion items we need divs with class `accordion-item`
+  - For title we can use `accordion-header` class
+  - A div with class `accordion-collapse` can be a part of our accordion to be collapsed with a button
+  - Class `accordion-body` is used to show the content of each accordion slide
+  - For making a list of reviews we can use `list-group` class and `list-group-item` for each of items
+  - Go to the `icons.getbootstrap.com` to use Bootstrap numerous icons
+  - We can download all icons or use the by `CDN`
+  - Add Bootstrap icons link into your project head
+  - To create a floating label create a div with class `form-floating` an place your textarea an label inside it
+  - To merge a label with a control we can use a `input-group` class
+  - To put a tooltip on your elements in the page use a JavaScript `tt` (it's an optional name)
+  - Also you need some JS code inside a script tag at the bottom of the page
+  - To create a modal for your website you need create a section for it separately and define modal under it
