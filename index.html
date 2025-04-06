@@ -3,6 +3,7 @@
 <head>
     <title>My Book Store</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 
     <style>
@@ -14,10 +15,11 @@
 <body>
 
     <!-- navbar -->
-     <nav class="navbar navbar-expand-md">
+     <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-xl">
             <a href="#intro" class="navbar-brand">
                 <span class="fw-bold text-secondary">
+                    <i class="bi bi-book-half"></i>
                     Darvishi Book
                 </span>
             </a>
@@ -70,6 +72,297 @@
             </div>
         </div>
      </section>
+
+
+     <!-- pricing plan -->
+      <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Pricing Plans</h2>
+                <p class="lead text-muted">
+                    Choose a pricing plan to suit you.
+                </p>
+            </div>
+            <div class="row my-5 align-items-center justify-content-center g-3">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Starter Edition</h4>
+                            <p class="lead card-subtitle">EBook Download Only</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-4">
+                    <div class="card border-primary border-2">
+                        <div class="card-header text-center text-primary">Most Popular</div>
+                        <div class="card-body text-center py-5">
+                            <h4 class="card-title">Complete Edition</h4>
+                            <p class="lead card-subtitle">EBook Download and All Updates</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$18.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Ultimate Edition</h4>
+                            <p class="lead card-subtitle">Updates & Extras</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Topics at a glance -->
+       <section id="topics">
+            <div class="container-md">
+
+                <div class="text-center">
+                    <h2>Inside the Book...</h2>
+                    <p class="lead text-muted">
+                        A quick at the topics you'll learn
+                    </p>
+                </div>
+
+                <div class="row my-5 g-5 justify-content-around align-items-center">
+    
+                    <div class="col-6 col-lg-4">
+                        <img src="images/kindle.png" class="img-fluid" alt="ebook">
+                    </div>
+                
+                    <div class="col-12 col-lg-6">
+                        <!-- Accordion -->
+                        <div class="accordion" id="chapters">
+                
+                            <!-- Chapter 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading1">
+                                    <button
+                                        class="accordion-button"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-1"
+                                        aria-expanded="true"
+                                        aria-controls="chapter-1">
+                                        Chapter 1 - Habbiton
+                                    </button>
+                                </h2>
+                                <div id="chapter-1"
+                                    class="accordion-collapse collapse show"
+                                    aria-labelledby="heading1"
+                                    data-bs-parent="#chapters">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <!-- Chapter 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading2">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-2"
+                                        aria-expanded="false"
+                                        aria-controls="chapter-2">
+                                        Chapter 2 - Rivendell
+                                    </button>
+                                </h2>
+                                <div id="chapter-2"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="heading2"
+                                    data-bs-parent="#chapters">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Chapter 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading3">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-3"
+                                        aria-expanded="false"
+                                        aria-controls="chapter-3">
+                                        Chapter 3 - Mordor
+                                    </button>
+                                </h2>
+                                <div id="chapter-3"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="heading3"
+                                    data-bs-parent="#chapters">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Chapter 4 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading4">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-4"
+                                        aria-expanded="false"
+                                        aria-controls="chapter-4">
+                                        Chapter 4 - Mount Doom
+                                    </button>
+                                </h2>
+                                <div id="chapter-4"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="heading4"
+                                    data-bs-parent="#chapters">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Chapter 5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading5">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-5"
+                                        aria-expanded="false"
+                                        aria-controls="chapter-5">
+                                        Chapter 5 - The Shire
+                                    </button>
+                                </h2>
+                                <div id="chapter-5"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="heading5"
+                                    data-bs-parent="#chapters">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>                   
+                    </div>
+                </div>  
+            </div>
+       </section>
+
+
+       <!-- review list -->
+       <section id="reviews" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2><i class="bi bi-stars"></i>Book Reviews</h2>
+                <p class="lead text-muted">
+                    What readers have said about the book ...
+                </p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group">
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">A most buy for every aspiring LOTR</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus quae dolor possimus quaerat explicabo maiores iusto minima error facilis velit consequuntur recusandae ullam itaque atque sapiente, earum exercitationem asperiores!</p>
+                            <small>A review by Ali Darvishi</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Good Choice</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus quae dolor possimus quaerat explicabo maiores iusto minima error facilis velit consequuntur recusandae ullam itaque atque sapiente, earum exercitationem asperiores!</p>
+                            <small>A review by Parinaz</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Nice Book</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus quae dolor possimus quaerat explicabo maiores iusto minima error facilis velit consequuntur recusandae ullam itaque atque sapiente, earum exercitationem asperiores!</p>
+                            <small>A review by Parham</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">I like It</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus quae dolor possimus quaerat explicabo maiores iusto minima error facilis velit consequuntur recusandae ullam itaque atque sapiente, earum exercitationem asperiores!</p>
+                            <small>A review by Mani</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Best Book Ever</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus quae dolor possimus quaerat explicabo maiores iusto minima error facilis velit consequuntur recusandae ullam itaque atque sapiente, earum exercitationem asperiores!</p>
+                            <small>A review by Sahar</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h5 class="mb-1">I read it</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus quae dolor possimus quaerat explicabo maiores iusto minima error facilis velit consequuntur recusandae ullam itaque atque sapiente, earum exercitationem asperiores!</p>
+                            <small>A review by Borna</small>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       </section>
 
 
 
