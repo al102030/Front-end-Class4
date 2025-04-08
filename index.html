@@ -67,7 +67,10 @@
                     <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
-                    <img class="img-fluid" src="images/lotr.png" alt="Te book cover">
+                    <!-- tooltip -->
+                     <span class="tt" data-bs-placement="bottom" title="The LOTR Cover">
+                         <img class="img-fluid" src="images/lotr.png" alt="Te book cover">
+                     </span>
                 </div>
             </div>
         </div>
@@ -365,7 +368,122 @@
        </section>
 
 
+       <!-- contact form -->
+        <section id="contact">
+            <div class="container lg">
+                <div class="text-center">
+                    <h2>Get in Touch</h2>
+                    <p class="lead text-muted">
+                        Questions to ask. Fill out the form to contact usdirectly...
+                    </p>
+                </div>
+
+                <div class="row justify-content-center my-5">
+                    <div class="col-lg-6">
+                        <form action="#">
+                            <label for="email" class="form-label" >Email Address:</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-envelope-fill text-primary"></i>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="e.g. ali@mail.com">
+                                <!-- tooltip -->
+                                <span class="input-group-text">
+                                    <span class="tt" data-bs-placement="bottom" title="Enter a valid email address">
+                                        <i class="bi bi-question-circle text-muted"></i>
+                                    </span>
+                                </span>
+                            </div>
+
+                            <label for="name" class="form-label">Name:</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-person-fill text-primary"></i>
+                                </span>
+                                <input type="name" class="form-control" id="name" placeholder="e.g. ali">
+                                <!-- tooltip -->
+                                <span class="input-group-text">
+                                    <span class="tt" data-bs-placement="bottom" title="Enter Your Name">
+                                        <i class="bi bi-question-circle text-muted"></i>
+                                    </span>
+                                </span>
+                            </div>
+
+                            <label for="subject" class="form-label">What is your question about?</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-chat-right-dots-fill text-primary"></i>
+                                </span>
+                                <select class="form-select" id="subject">
+                                    <option value="pricing" selected>Pricig query</option>
+                                    <option value="content">Content query</option>
+                                    <option value="other">Other query</option>
+                                </select>
+                            </div>
+
+                            <div class="form-floating mb-4 mt-5">
+                                <textarea class="form-control" style="height: 140px"  id="query"></textarea>
+                                <label for="query">Your query...</label>
+                             </div>
+
+                             <div class="mb-4 text-center">
+                                <Button type="submit" class="btn btn-secondary">Submit</Button>
+                             </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- get updates / modal triggre -->
+         <section class="bg-light">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Stay in the Loop</h2>
+                    <p class="lead text-muted">
+                        Get the lastest updates and news about the book
+                    </p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <p class="text-muted my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi dolore dolores laboriosam ducimus repudiandae dignissimos ea, alias voluptate autem neque! Ab aspernatur architecto omnis voluptate laborum itaque repellendus. Architecto, debitis fuga. Totam vel, eveniet perferendis quod maiores doloribus cumque saepe consectetur distinctio adipisci sequi unde aliquid omnis, perspiciatis maxime animi.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                            Register for Updates
+                        </button>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- modal itself -->
+          <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-title">Get latest Updates</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, nihil? Qui tempora nesciunt numquam explicabo repellat temporibus necessitatibus voluptate odit quibusdam, eos rerum, provident natus sint ipsa cupiditate laboriosam neque.</p>
+                        <label for="modal-emil" class="form-label">Your Email Address:</label>
+                        <input type="email" placeholder="e.g. name@example,com" id="modal-title" class="form-control">
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
 </body>
 </html>
